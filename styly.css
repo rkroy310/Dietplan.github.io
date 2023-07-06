@@ -1,0 +1,97 @@
+
+body{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+     background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("diet\ photo\ for\ website.jpg");;
+    /* background-image: url("diet\ photo\ for\ website.jpg"); */
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100%;
+    
+   }
+   .left{
+    position: absolute;
+    left: 34px;
+    top: 10px;
+    display: inline-block;
+ 
+   }
+   .left img{
+    width: 120px;
+    /* filter: invert(100%); */
+       
+   }  
+   
+   .mid{
+    display: block;
+    width: 43%;
+    margin:  20px auto;
+  
+   }
+   .right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+   
+
+   }
+   .navbar{
+    display: inline-block;
+   }
+   .navbar li {
+    display: inline-block;
+    font-size: 25px;
+   }
+   .navbar li a{
+    /* font-size: 25px; */
+    color: white;
+    text-decoration: none;
+    padding: 28px 18px;
+   }
+   .navbar li a:hover {
+   text-decoration: underline;
+   color: gray;
+   }
+.container2 {
+   width: 49%;
+   margin-left: 10px;
+   margin-top: 113px;
+    /* margin-left: 500px; */
+    
+    padding: 20px;
+  }
+  .container1{
+    display: inline;
+
+  }
+  .para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .display {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.2;
+    width: 50%;
+  }
+  .hidden {
+    display: none;
+  }
+  .para1{
+    display: flex;
+    
+  }
+  .para2{
+    border: 2px solid white;
+    display: flex;
+    margin-left: 73px;
+    margin-top: 155px;
+    width: 50%;
+    font-size: 30px;
+    
+  }
+  

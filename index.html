@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Nutrition Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styly.css">
+  <style>
+    
+  </style>
+</head>
+<body > 
+    <header>
+        <!-- left box for logo -->
+        <div class="left">
+        <div class="left">
+            <img src="logodiet.jpg" alt="">
+            <div>Rahul Fitness</div>
+        </div>
+        </div>
+        <!-- mid box for navigation -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Support diet</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+             </ul>
+        </div>
+        <!-- right box for search -->
+        <div class="right">
+      <button class="btn">Call Us Now</button>
+      <button class="btn">Email Us</button>
+        </div>
+    </header>
+   <div class="container1">
+    <div class="para">
+      <h2 class="display" >Start planning the perfect nutrition today.<span class="autotype"></span></h2> 
+      
+
+
+  </div>
+  <div class="para1">
+      <p class="para2">Autopilot Diet automatically adjusts to keep you on track. 
+          You enter everything you eat then weigh in once a week to optimize your calorie deficit 
+          and macronutrient targets- so you continue to lose weight
+
+      <span></span></p>
+
+      <div class="container2">
+        <h1>Nutrition Calculator</h1>
+        <form id="calculator-form">
+          <label for="calories">Calories:</label>
+          <input  type="number" id="calories" name="calories" required>
+      
+          <label for="protein">Protein (g):</label>
+          <input type="number" id="protein" name="protein" required>
+      
+          <label  for="carbs"  >Carbs (g):</label> 
+          <input type="number" id="carbs" name="carbs" required>
+      
+          <label for="fat">Fat (g):</label>
+          <input type="number" id="fat" name="fat" required>
+      
+          <button type="submit">Calculate</button>
+        </form>
+      
+        <div id="result" class="hidden">
+          <h2>Results</h2>
+          <p id="calculated-result"></p>
+        </div>
+      </div> 
+  </div>
+ 
+   </div>
+
+  <script src="script.js"></script>
+
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.autotype', {
+      strings: ['Put your diet on autopilot'],
+      typeSpeed: 50,
+      loop : true
+    });
+  </script>
+</body>
+</html>
