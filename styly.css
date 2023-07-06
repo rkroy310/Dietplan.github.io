@@ -6,7 +6,7 @@ body{
      background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("diet\ photo\ for\ website.jpg");;
     /* background-image: url("diet\ photo\ for\ website.jpg"); */
      background-repeat: no-repeat;
-     background-attachment: fixed;
+     background-attachment: cover;
      background-size: 100%;
     
    }
